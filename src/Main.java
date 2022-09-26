@@ -1,25 +1,21 @@
 public class Main {
     public static void main(String[] args) {
-        //task 1
-        var dog=8.0;
-        var cat=3.6;
-        var paper=763789;
-        System.out.println(dog);
-        System.out.println(cat);
-        System.out.println(paper);
-        //task 2
-        dog=dog+4;
-        cat=cat+4;
-        paper=paper+4;
-        System.out.println(dog);
-        System.out.println(cat);
-        System.out.println(paper);
-        //task 3
-        dog=dog-3.5;
-        cat=cat-1.6;
-        paper=paper-7639;
-        System.out.println(dog);
-        System.out.println(cat);
-        System.out.println(paper);
+        //task 6
+        var boxersWeight1=78.2;
+        var boxersWeight2=82.7;
+        System.out.println(boxersWeight1+boxersWeight2);
+        System.out.println(boxersWeight2-boxersWeight1);
+        //task 7
+        System.out.println(boxersWeight2-boxersWeight1);
+        System.out.println(boxersWeight2%boxersWeight1);
+        //task 8.1
+        var totalWorkingHours=640;
+        var everyEmployeeWorkingHours=8;
+        var totalEmployees=totalWorkingHours/everyEmployeeWorkingHours;
+        System.out.println( "Всего работников в компании – "+ totalEmployees+" человек");
+        //task 8.2
+        totalEmployees=totalEmployees+94;
+        var newTotalWorkingHours=totalEmployees*everyEmployeeWorkingHours;
+        System.out.println("Если в компании работает "+totalEmployees+" человек, то всего "+newTotalWorkingHours+" часов работы может быть поделено между сотрудниками");
     }
 }
